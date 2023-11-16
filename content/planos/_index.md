@@ -1,4 +1,0 @@
----
-title: "Planos"
-type: "page"
----

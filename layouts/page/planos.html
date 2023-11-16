@@ -1,0 +1,44 @@
+{{ define "main" -}}
+  <div class="card my-5">
+    <div class="card-body">
+      <h1>Nossos planos</h1>
+
+      <div class="row">
+        <div class="col sm-mt-2 mb-3">
+          <div class="card subcard text-center">
+            <div class="card-body">
+              <h3 class="card-title my-5">
+                <span class="lnr lnr-rocket"></span> Plano Mensal
+                <br><span>&nbsp;</span>
+              </h3>
+              <h1>R$ 49,90 / mês</h1>
+              <p class="card-text">Valor anual: <strong>R$ 598,80</strong></p>
+              <a href="https://app.pjpark.com.br/users/sign_up" class="btn btn-primary mt-3 mb-5">Escolher o plano Mensal</a>
+            </div>
+          </div>
+        </div>
+        <div class="col sm-mt-2">
+          <div class="card subcard text-center">
+            <div class="card-body">
+              <h3 class="card-title my-5">
+                <span class="lnr lnr-rocket"></span> Plano Anual
+                <br><span class="fs-6"><i>Com fidelidade de 12 meses</i></span>
+              </h3>
+              <h1>R$ 39,90 / mês</h1>
+              <p class="card-text">Valor anual: <strong>R$ 478,80</strong></p>
+              <a href="https://app.pjpark.com.br/users/sign_up" class="btn btn-primary mt-3 mb-5">Escolher o plano Anual</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
+          <p class="alert alert-success text-center">Você economiza <strong>R$ 120,00</strong> ao optar pelo plano anual</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+{{- end }}
